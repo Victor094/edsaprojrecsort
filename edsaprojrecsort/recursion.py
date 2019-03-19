@@ -26,9 +26,12 @@ def fibonacci(number):
         >> fibonacci(3)
         2
     """
-    if number <= 1:
+    if number == 0:
+        return 0
+    if number == 1:
         return 1
-    return fibonacci(number - 2) + fibonacci(number - 1)
+    else :
+        return fibonacci(number - 1) + fibonacci(number - 2)
 
 def factorial(n):
 
@@ -37,8 +40,8 @@ def factorial(n):
     Example :
     n! = 1*2*3*4....n
     '''
-    if n == 1:
-        return n
+    if n == 0:
+        return 1
     else:
         return n * factorial(n-1)
 
