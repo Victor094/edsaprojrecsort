@@ -25,7 +25,6 @@ def merge_sort(items):
 
     return merge(i1, i2) # calling the merge function
 
-
 def merge(A, B):
     new_list = []
     while len(A) > 0 and len(B) > 0:

@@ -6,9 +6,9 @@ def sum_array(array):
          sum1 = sum1 + item  # adding every item to sum1
     return sum1  # returning total sum1
 
-def fibonacci(n):
+def fibonacci(number):
 
-        """
+    """
     Calculate nth term in fibonacci sequence
 
     Args:
@@ -42,7 +42,7 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
- def reverse(word):
+def reverse(word):
 
     '''
 
